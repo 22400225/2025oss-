@@ -2,11 +2,75 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Choose a page.</title>
+    <title>지원님의 페이지</title>
+    <style>
+        body {
+            font-size: large;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #005f73;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #0a9396;
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #ee9b00;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #e9ecef;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #005f73;
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-    <p>nostyle.html로 이동합니다. <a href="nostyle.html">여기를 클릭</a></p>
-    <p>Example page.html로 이동합니다. <a href="Example page.html">여기를 클릭</a></p>
+
+    <div class="container">
+        <h1>Welcome Jiwon's Page.</h1>
+        <h2>Choose a page.</h2>
+        
+        <p>Stylesheet1으로 이동합니다  <a href="style1.html">여기를 클릭</a></p>
+        <p>Stylesheet2으로 이동합니다  <a href="style2.html">여기를 클릭</a></p>
+        <p>No Stylesheet으로 이동합니다  <a href="nostyle.html">여기를 클릭</a></p>
+        <p>Example page로 이동합니다  <a href="Example page.html">여기를 클릭</a></p>
+    </div>
     
 </body>
 </html>
