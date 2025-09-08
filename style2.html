@@ -1,112 +1,114 @@
 <html>
 
-<style>/* Stylesheet 2: */
-body {
-    font-family: Arial;
-    background-color: #d14836;
-    line-height: 20px;
-}
+<style>
+    /* Stylesheet 2: */
+    body {
+        font-family: Arial;
+        background-color: #d14836;
+        line-height: 20px;
+    }
 
-.container {
-    xmin-width: 900px;
-}
+    .container {
+        xmin-width: 900px;
+    }
 
-.wrapper {
-    position: relative;
-    overflow: auto;
-}
+    .wrapper {
+        position: relative;
+        overflow: auto;
+    }
 
-#top {
-    color: #ffffff;
-    padding: 15px;
-    font-size: 30px;
-    line-height: 26px;    
-}
+    #top {
+        color: #ffffff;
+        padding: 15px;
+        font-size: 30px;
+        line-height: 26px;
+    }
 
-#top h1 {
-    margin:0;
-    line-height: 50px;
-}
+    #top h1 {
+        margin: 0;
+        line-height: 50px;
+    }
 
-#menubar {
-    width: 190px;
-    float: right;
-}
+    #menubar {
+        width: 190px;
+        float: right;
+    }
 
-#main {
-    padding: 10px;
-    background-color: #ffffff;
-    font: 80% Verdana;
-}
+    #main {
+        padding: 10px;
+        background-color: #ffffff;
+        font: 80% Verdana;
+    }
 
-#main h1, #main h2 {
-    color: #d14836;
-}
+    #main h1,
+    #main h2 {
+        color: #d14836;
+    }
 
-#sidebar {
-    background-color: #F6DAD7;
-    color: #d14836;
-    padding: 10px;
-}
+    #sidebar {
+        background-color: #F6DAD7;
+        color: #d14836;
+        padding: 10px;
+    }
 
-#bottom {
-    text-align: center;
-    padding: 10px;
-    font-size: 70%;
-    color: #ffffff;
-}
+    #bottom {
+        text-align: center;
+        padding: 10px;
+        font-size: 70%;
+        color: #ffffff;
+    }
 
-#menulist {
-    padding:0;
-    font: 16px verdana;
-}
+    #menulist {
+        padding: 0;
+        font: 16px verdana;
+    }
 
-.menuitem {
-    width: 155px;
-    background-color: #d14836;
-    border: 1px solid #d14836;
-    border-radius: 40px;
-    color: #ffffff;
-    list-style-type: none;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    cursor: pointer;
-}
+    .menuitem {
+        width: 155px;
+        background-color: #d14836;
+        border: 1px solid #d14836;
+        border-radius: 40px;
+        color: #ffffff;
+        list-style-type: none;
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
 
-.colorbottombar {
-    background-color: #ffffff;
-}
+    .colorbottombar {
+        background-color: #ffffff;
+    }
 
 
-.menuitem:nth-child(2) {
-   background-color:white;
-   color: #d14836;
-   font-weight:bold;
-}
+    .menuitem:nth-child(2) {
+        background-color: white;
+        color: #d14836;
+        font-weight: bold;
+    }
 
-.menuitem:hover {
-    background-color: #ffffff;
-    color: #d14836;
-}
+    .menuitem:hover {
+        background-color: #ffffff;
+        color: #d14836;
+    }
 
-.nonunderline {
-    color: inherit;
-    text-decoration: inherit;
-}
+    .nonunderline {
+        color: inherit;
+        text-decoration: inherit;
+    }
 
-.nonunderline:hover  {
-    text-decoration: none;
-}
+    .nonunderline:hover {
+        text-decoration: none;
+    }
 
-a {
-    color: #d14836;
-    text-decoration: none;
-}
+    a {
+        color: #d14836;
+        text-decoration: none;
+    }
 
-a:hover {
-    text-decoration: underline;
-}
+    a:hover {
+        text-decoration: underline;
+    }
 </style>
 </head>
 <div class="container wrapper">
@@ -117,11 +119,14 @@ a:hover {
     <div class="wrapper">
         <div id="menubar">
             <ul id="menulist">
-                <li class="menuitem"><a href="https://astounding-treacle-04f667.netlify.app/style1" class="nonunderline">Stylesheet 1</a>
+                <li class="menuitem"><a href="https://astounding-treacle-04f667.netlify.app/style1"
+                        class="nonunderline">Stylesheet 1</a>
                 </li>
-                <li class="menuitem"><a href="https://astounding-treacle-04f667.netlify.app/style2" class="nonunderline">Stylesheet 2</a>
+                <li class="menuitem"><a href="https://astounding-treacle-04f667.netlify.app/style2"
+                        class="nonunderline">Stylesheet 2</a>
                 </li>
-                <li class="menuitem"><a class="nonunderline" href="https://astounding-treacle-04f667.netlify.app/nostyle" >No Stylesheet</a>
+                <li class="menuitem"><a class="nonunderline"
+                        href="https://astounding-treacle-04f667.netlify.app/nostyle">No Stylesheet</a>
                 </li>
             </ul>
         </div>
@@ -136,7 +141,8 @@ a:hover {
             </p>
             <h2>No Styles</h2>
             <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page
-                looks like with no stylesheet:<br><a href="https://astounding-treacle-04f667.netlify.app/nostyle" onclick="noStyles();return false">No
+                looks like with no stylesheet:<br><a href="https://astounding-treacle-04f667.netlify.app/nostyle"
+                    onclick="noStyles();return false">No
                     Stylesheet</a>.</p>
         </div>
         <div id="sidebar">
@@ -153,9 +159,9 @@ a:hover {
         suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
         vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
         iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-    <br><br>
-    <small>
-    <a class="colorbottombar" href="https://astounding-treacle-04f667.netlify.app/">홈화면으로</a>
-    </small>
-</div>
+        <br><br>
+        <small>
+            <a class="colorbottombar" href="https://astounding-treacle-04f667.netlify.app/">홈화면으로</a>
+        </small>
+    </div>
 </div>
